@@ -191,7 +191,7 @@ def assert_successful_audience_call(resp: requests.Response, domain: str):
             )
 
 
-def extract_claims(token: str) -> dict[str, typing.Any]:
+def extract_claims(token: str) -> dict[str, object]:
     _, payload, _ = token.split('.', 2)
 
     # urlsafe_b64decode needs padding; JWT payloads don't contain any.
