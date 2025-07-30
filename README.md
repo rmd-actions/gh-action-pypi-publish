@@ -109,9 +109,7 @@ filter to the job:
 
 > [!IMPORTANT]
 > Support for generating and uploading [digital attestations] is currently
-> experimental and limited only to Trusted Publishing flows using PyPI or TestPyPI.
-> Support for this feature is not yet stable; the settings and behavior described
-> below may change without prior notice.
+> limited to Trusted Publishing flows using PyPI or TestPyPI.
 
 > [!NOTE]
 > Generating and uploading digital attestations currently requires
