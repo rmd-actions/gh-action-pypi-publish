@@ -202,7 +202,7 @@ def extract_claims(token: str) -> dict[str, object]:
     return json.loads(base64.urlsafe_b64decode(payload))
 
 
-def render_claims(claims: dict[str, typing.Any]) -> str:
+def render_claims(claims: dict[str, object]) -> str:
     def _get(name: str) -> str:  # noqa: WPS430
         return claims.get(name, 'MISSING')
 
@@ -218,7 +218,7 @@ def render_claims(claims: dict[str, typing.Any]) -> str:
     )
 
 
-def warn_on_reusable_workflow(claims: dict[str, typing.Any]) -> None:
+def warn_on_reusable_workflow(claims: dict[str, object]) -> None:
     # A reusable workflow is identified by having different values
     # for its workflow_ref (the initiating workflow) and job_workflow_ref
     # (the reusable workflow).
