@@ -105,7 +105,7 @@ Whereas its parent workflow is:
 Reusable workflows are **not currently supported** by PyPI's Trusted Publishing
 functionality, and are subject to breakage. Users are **strongly encouraged**
 to avoid using reusable workflows for Trusted Publishing until support
-becomes official.
+becomes official. Please, do not report bugs if this breaks.
 
 For more information, see:
 
