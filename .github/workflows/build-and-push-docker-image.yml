@@ -2,10 +2,12 @@
 
 name: 🏗️
 
-on:   # yamllint disable-line rule:truthy
+on:
   pull_request:
   push:
-    branches: ["release/*", "unstable/*"]
+    branches:
+    - release/*
+    - unstable/*
   workflow_dispatch:
     inputs:
       tag:
