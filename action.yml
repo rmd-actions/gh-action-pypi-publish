@@ -82,7 +82,7 @@ inputs:
     default: 'false'
   attestations:
     description: >-
-      Enable experimental support for PEP 740 attestations.
+      Enable support for PEP 740 attestations.
       Only works with PyPI and TestPyPI via Trusted Publishing.
     required: false
     default: 'true'
