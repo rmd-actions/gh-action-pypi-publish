@@ -2,7 +2,7 @@
 
 name: GitHub Actions Security Analysis with zizmor 🌈
 
-on:  # yamllint disable-line rule:truthy
+on:
   push:
   pull_request:
 

@@ -2,7 +2,7 @@
 
 name: ♻️ 🧪
 
-on:   # yamllint disable-line rule:truthy
+on:
   workflow_call:
 
 env:
